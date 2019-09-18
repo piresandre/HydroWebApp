@@ -1,0 +1,12 @@
+D:\HydroTechnology\Hydro\HydroDAL\bin\Debug\netstandard2.0\HydroDAL.deps.json
+D:\HydroTechnology\Hydro\HydroDAL\bin\Debug\netstandard2.0\HydroDAL.dll
+D:\HydroTechnology\Hydro\HydroDAL\bin\Debug\netstandard2.0\HydroDAL.pdb
+D:\HydroTechnology\Hydro\HydroDAL\obj\Debug\netstandard2.0\HydroDAL.csprojAssemblyReference.cache
+D:\HydroTechnology\Hydro\HydroDAL\obj\Debug\netstandard2.0\HydroDAL.csproj.CoreCompileInputs.cache
+D:\HydroTechnology\Hydro\HydroDAL\obj\Debug\netstandard2.0\HydroDAL.AssemblyInfoInputs.cache
+D:\HydroTechnology\Hydro\HydroDAL\obj\Debug\netstandard2.0\HydroDAL.AssemblyInfo.cs
+D:\HydroTechnology\Hydro\HydroDAL\obj\Debug\netstandard2.0\HydroDAL.dll
+D:\HydroTechnology\Hydro\HydroDAL\obj\Debug\netstandard2.0\HydroDAL.pdb
+D:\HydroTechnology\Hydro\HydroDAL\bin\Debug\netstandard2.0\HydroMOD.dll
+D:\HydroTechnology\Hydro\HydroDAL\bin\Debug\netstandard2.0\HydroMOD.pdb
+D:\HydroTechnology\Hydro\HydroDAL\obj\Debug\netstandard2.0\HydroDAL.csproj.CopyComplete

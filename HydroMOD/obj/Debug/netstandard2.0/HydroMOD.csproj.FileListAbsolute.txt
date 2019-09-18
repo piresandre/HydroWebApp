@@ -1,0 +1,9 @@
+D:\HydroTechnology\Hydro\HydroMOD\bin\Debug\netstandard2.0\HydroMOD.deps.json
+D:\HydroTechnology\Hydro\HydroMOD\bin\Debug\netstandard2.0\HydroMOD.dll
+D:\HydroTechnology\Hydro\HydroMOD\bin\Debug\netstandard2.0\HydroMOD.pdb
+D:\HydroTechnology\Hydro\HydroMOD\obj\Debug\netstandard2.0\HydroMOD.csprojAssemblyReference.cache
+D:\HydroTechnology\Hydro\HydroMOD\obj\Debug\netstandard2.0\HydroMOD.csproj.CoreCompileInputs.cache
+D:\HydroTechnology\Hydro\HydroMOD\obj\Debug\netstandard2.0\HydroMOD.AssemblyInfoInputs.cache
+D:\HydroTechnology\Hydro\HydroMOD\obj\Debug\netstandard2.0\HydroMOD.AssemblyInfo.cs
+D:\HydroTechnology\Hydro\HydroMOD\obj\Debug\netstandard2.0\HydroMOD.dll
+D:\HydroTechnology\Hydro\HydroMOD\obj\Debug\netstandard2.0\HydroMOD.pdb

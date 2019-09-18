@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+}
+
+@section head{
+    <link href="~/Content/css/Login.css" rel="stylesheet" />
+}
+
+<div class="mb-2">
+    <header id="header" class="header header-hide">
+        <div class="container">
+
+            <div id="logo" class="pull-left">
+                <h1><a href="/Introducing/Index" class="scrollto">Hydro</a></h1>
+            </div>
+            <nav id="nav-menu-container">
+                <ul class="nav-menu">
+                    <li class="menu-active"><a href="/Introducing/Index">Home</a></li>
+                    <li id="login"><a href="/Login/Login">Login</a></li>
+                </ul>
+            </nav>
+            <!-- #nav-menu-container -->
+        </div>
+    </header>
+</div>
+
+<div class="sidenav">
+    <div class="login-main-text">
+        <h2>Hydro<br>technology</h2>
+        <p>Login or registre-se aqui para ter acesso.</p>
+    </div>
+</div>
+<div class="main">
+    <div class="col-md-6 col-sm-12">
+        <div class="login-form">
+            <form>
+                <div class="form-group">
+                    <label>Nome</label>
+                    <input type="text" id="user" class="form-control" placeholder="Nome">
+                </div>
+                <div class="form-group">
+                    <label>Senha</label>
+                    <input type="password" id="password" class="form-control" placeholder="Senha">
+                </div>
+                <button type="submit" id="login" class="btn btn-black">Logar</button>
+                <a class="btn btn-secondary" href="/Login/cadastrar">Cadastrar-se</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+@section scripts{
+    <script src="~/Content/js/login.js"></script>
+}
+

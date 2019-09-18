@@ -1,0 +1,72 @@
+body{
+    background-color: rgba(167, 160, 160, 0.3);
+}
+.head-form {
+    border: 1px solid #1ca3ec;
+    /* padding: 5px 30px!important; */
+    text-align: center;
+    color: #ffffff;
+    background-color: #1ca3ec;
+    margin: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.form-register{
+    border: 15px solid #ffffff;
+    padding: 0px 0px!important;
+    background-color: #ffffff;
+    text-align: center!important;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.list-group-item{
+    /* border: 1px solid #1ca3ec; */
+    border: none;
+    padding: 2px!important;
+    border-top-left-radius:0px important;
+}
+
+ .form-step p{
+    color:#555555;
+    font-weight: bold;
+} 
+
+.item-default{
+    color: #555555;
+    background-color: white;
+    position: relative;
+    display: block;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 3px;
+}
+
+.item-ativo, .item-ativo p{
+    color: #ffffff;
+    background-color: #1ca3ec;
+    position: relative;
+    display: block;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 3px;
+}
+
+#next{
+    background: #1ca3ec;
+    color: #ffffff
+}
+#next:hover{
+    background: #0069d9;
+    color: #ffffff;
+}
+
+.botao:hover{
+    color:#555555;
+    color: #ffffff;
+}
+
+.dropdown-item{
+    cursor:pointer;
+}
