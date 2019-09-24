@@ -183,3 +183,16 @@ D:\HydroTechnology\Hydro\Hydro\obj\Debug\Hydro.dll
 D:\HydroTechnology\Hydro\Hydro\obj\Debug\Hydro.pdb
 D:\HydroTechnology\Hydro\Hydro\bin\HydroMOD.dll
 D:\HydroTechnology\Hydro\Hydro\bin\HydroMOD.pdb
+D:\HydroTechnology\Hydro\Hydro\bin\Microsoft.AspNet.SignalR.Core.dll
+D:\HydroTechnology\Hydro\Hydro\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+D:\HydroTechnology\Hydro\Hydro\bin\Microsoft.Owin.dll
+D:\HydroTechnology\Hydro\Hydro\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\HydroTechnology\Hydro\Hydro\bin\Microsoft.Owin.Security.dll
+D:\HydroTechnology\Hydro\Hydro\bin\Owin.dll
+D:\HydroTechnology\Hydro\Hydro\bin\Microsoft.AspNet.SignalR.Core.pdb
+D:\HydroTechnology\Hydro\Hydro\bin\Microsoft.AspNet.SignalR.Core.xml
+D:\HydroTechnology\Hydro\Hydro\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+D:\HydroTechnology\Hydro\Hydro\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+D:\HydroTechnology\Hydro\Hydro\bin\Microsoft.Owin.xml
+D:\HydroTechnology\Hydro\Hydro\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\HydroTechnology\Hydro\Hydro\bin\Microsoft.Owin.Security.xml
