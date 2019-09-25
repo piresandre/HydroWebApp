@@ -1,0 +1,199 @@
+﻿
+@{
+    ViewBag.Title = "FormCadastro";
+}
+
+@section head{
+    <link rel="stylesheet" href="~/Content/css/form-register.css">
+    <link rel="stylesheet" href="~/Content/css/IntroducingStyle.css">
+}
+<div class="mb-2">
+    <header id="header" class="header header-hide">
+        <div class="container">
+
+            <div id="logo" class="pull-left">
+                <h1><a href="/Introducing/Index" class="scrollto">Hydro</a></h1>
+            </div>
+            <nav id="nav-menu-container">
+                <ul class="nav-menu">
+                    <li class="menu-active"><a href="/Introducing/Index">Home</a></li>
+                    <li id="login"><a href="/Login/Login">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+</div>
+<div class="form-content mt-3">
+    <div class="container form-register mt-3">
+        <div class="row head-form">
+            <div class="col-md-12 mt-5">
+                <h4>Bem-vindo</h4>
+                <p>Cadastre-se para entrar no time.</p>
+            </div>
+        </div>
+
+        <div class="form-step">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <li class=" item-default" id="step-pessoal">
+                        <span class="">
+                            <i class="fa fa-user-plus" aria-hidden="true"></i>
+                        </span>
+                        <p class="font-weight-bold text-uppercase">Pessoal</p>
+                    </li>
+                </div>
+
+                <div class="col-md-4">
+                    <li class=" item-default" id="step-endereco">
+                        <span>
+                            <i class="fa fa-home" aria-hidden="true"></i>
+                        </span>
+                        <p class="font-weight-bold text-uppercase">Endereço</p>
+                    </li>
+                </div>
+
+                <div class="col-md-4">
+                    <li class=" item-default" id="step-acesso">
+                        <span>
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                        </span>
+                        <p class="font-weight-bold text-uppercase">Acesso</p>
+                    </li>
+                </div>
+            </div>
+        </div>
+        <div class="msg"></div>
+        <div class="row mt-3">
+            <div class="col-md-12 ">
+                <form>
+                    <div id="step_1" class="step step-pessoal">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <input type="text" class="form-control " placeholder="Nome Completo"
+                                           name="nome" id="nome" />
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <input type="text" class="form-control " placeholder="E-mail"
+                                           name="email" id="email" />
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <div class="dropdown show">
+                                        <input class="form-control dropdown-toggle" placeholder="Plano" href="#" role="button" id="plano" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"/>
+                                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                            <a id="ddlPlano1" data-id="1" class="dropdown-item">1</a>
+                                            <a id="ddlPlano2" data-id="2" class="dropdown-item">2</a>
+                                            <a data-id="3" id="ddlPlano3" class="dropdown-item">3</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <input type="text" class="form-control " placeholder="CPF"
+                                           name="cpf" id="cpf" />
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <input type="text" class="form-control " placeholder="Telefone"
+                                           name="telefone" id="telefone" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="step_2" class="step step-endereco">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <input type="text" class="form-control " placeholder="CEP"
+                                           name="cep" id="cep" />
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <input type="text" class="form-control " placeholder="Rua"
+                                           name="rua" id="rua" />
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <input type="text" class="form-control " placeholder="Número"
+                                           name="numero" id="numero" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <input type="text" class="form-control " placeholder="Cidade"
+                                           name="cidade" id="cidade" />
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <input type="text" class="form-control " placeholder="Bairro"
+                                           name="bairro" id="bairro" />
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <input type="text" class="form-control " placeholder="UF" name="uf"
+                                           id="uf" />
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div id="step_3" class="step step-login">
+                        <div class="container w-50">
+                            <div class="form-group  ">
+                                <input type="text" class="form-control " placeholder="ID"
+                                       name="nome-acesso" id="id" />
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control " placeholder="Senha"
+                                       name="senha" id="senha" />
+                            </div>
+                            <div class="form-group ">
+                                <input type="text" class="form-control "
+                                       placeholder="Confirmar senha" name="confirmar-senha"
+                                       id="confirmarSenha" />
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-end">
+            <div class="col-md-6 text-right">
+                <button class="btn btn-md botao btn-outline-secondary rounded-pill  w-25"
+                        id="prev">
+                    Voltar
+                </button>
+                <button class="btn botao btn-md rounded-pill w-25"
+                        id="next">
+                    Avançar
+                </button>
+                <button type="submit" class="btn text-center rounded-pill w-25 btn-md btn-primary mb-1"
+                        id="salvar">
+                    Salvar
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts{
+
+    <script src="~/Content/js/form-register.js"></script>
+}
+
+

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNet.SignalR;
+using Microsoft.AspNet.SignalR.Hubs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,7 @@ namespace Hydro.Hubs
         public static void Show()
         {
             IHubContext context = GlobalHost.ConnectionManager.GetHubContext<CusHub>();
-            context.Clients.All.displayCustumer();
+            context.Clients.All.displayCostumer();
         }
     }
 }

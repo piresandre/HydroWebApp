@@ -3,7 +3,7 @@ $(function () {
     // Proxy created on the fly
     var cus = $.connection.cusHub;
     // Declare a function on the job hub so the server can invoke it
-    cus.client.displayCustomer = function () {
+    cus.client.displayCostumer = function () {
         getData();
     };
     // Start the connection
@@ -48,6 +48,7 @@ function getData() {
                     return s.join(dec);
                 }
                 // Area Chart Example
+                $("#myAreaChart").empty();
                 var ctx = document.getElementById("myAreaChart");
                 var myLineChart = new Chart(ctx, {
                     type: 'line',

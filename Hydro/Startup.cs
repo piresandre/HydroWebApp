@@ -10,7 +10,6 @@ namespace Hydro
     {
         public void Configuration(IAppBuilder app)
         {
-            
             app.MapSignalR();
         }
     }

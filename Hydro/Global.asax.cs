@@ -18,11 +18,11 @@ namespace Hydro
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-            SqlDependency.Start(ConfigurationManager.ConnectionStrings["EasywayHelpDeskDB"].ConnectionString);
+            SqlDependency.Start(ConfigurationManager.ConnectionStrings["DESKTOP-B3Q14IV"].ConnectionString);
         }
         protected void Application_End()
         {
-            SqlDependency.Stop(ConfigurationManager.ConnectionStrings["EasywayHelpDeskDB"].ConnectionString);
+            SqlDependency.Stop(ConfigurationManager.ConnectionStrings["DESKTOP-B3Q14IV"].ConnectionString);
         }
     }
 }

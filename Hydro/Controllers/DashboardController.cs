@@ -32,8 +32,7 @@ namespace Hydro.Controllers
         [HttpGet]
         public JsonResult Get()
         {
-            MainDashboard();
-            using (var connection = new SqlConnection(ConfigurationManager.ConnectionStrings["EasywayHelpDeskDB"].ConnectionString))
+            using (var connection = new SqlConnection(ConfigurationManager.ConnectionStrings["DESKTOP-B3Q14IV"].ConnectionString))
             {
                 connection.Open();
                 using (SqlCommand command = new SqlCommand(@"SELECT jan,fev,mar,abr,mai,jun,jul,aug,sete,outu,nov,dez FROM [dbo].[Meses]", connection))
