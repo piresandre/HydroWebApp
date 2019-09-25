@@ -10,31 +10,31 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/Antlr3.Runtime.dll">
-      <publishTime>09/10/2013 16:29:20</publishTime>
+      <publishTime>10/09/2013 16:29:20</publishTime>
     </File>
     <File Include="bin/Antlr3.Runtime.pdb">
-      <publishTime>09/10/2013 16:29:20</publishTime>
+      <publishTime>10/09/2013 16:29:20</publishTime>
     </File>
     <File Include="bin/Dapper.dll">
       <publishTime>03/30/2019 17:21:38</publishTime>
     </File>
     <File Include="bin/Hydro.dll">
-      <publishTime>09/24/2019 22:38:31</publishTime>
+      <publishTime>09/25/2019 19:23:34</publishTime>
     </File>
     <File Include="bin/Hydro.pdb">
-      <publishTime>09/24/2019 22:38:31</publishTime>
+      <publishTime>09/25/2019 19:23:34</publishTime>
     </File>
     <File Include="bin/HydroBLL.dll">
-      <publishTime>09/24/2019 22:38:29</publishTime>
+      <publishTime>09/25/2019 19:23:32</publishTime>
     </File>
     <File Include="bin/HydroBLL.pdb">
-      <publishTime>09/24/2019 22:38:29</publishTime>
+      <publishTime>09/25/2019 19:23:32</publishTime>
     </File>
     <File Include="bin/HydroDAL.dll">
-      <publishTime>09/24/2019 22:38:28</publishTime>
+      <publishTime>09/25/2019 19:23:32</publishTime>
     </File>
     <File Include="bin/HydroDAL.pdb">
-      <publishTime>09/24/2019 22:38:28</publishTime>
+      <publishTime>09/25/2019 19:23:32</publishTime>
     </File>
     <File Include="bin/HydroMOD.dll">
       <publishTime>09/24/2019 11:55:59</publishTime>
@@ -43,16 +43,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/24/2019 11:55:59</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.SignalR.Core.dll">
-      <publishTime>04/03/2019 00:30:56</publishTime>
+      <publishTime>03/04/2019 00:30:56</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.SignalR.Core.pdb">
-      <publishTime>04/03/2019 07:19:50</publishTime>
+      <publishTime>03/04/2019 07:19:50</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.SignalR.SystemWeb.dll">
-      <publishTime>04/03/2019 00:30:56</publishTime>
+      <publishTime>03/04/2019 00:30:56</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.SignalR.SystemWeb.pdb">
-      <publishTime>04/03/2019 07:20:50</publishTime>
+      <publishTime>03/04/2019 07:20:50</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
       <publishTime>05/24/2018 13:38:22</publishTime>
@@ -499,25 +499,25 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/09/2019 23:23:32</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
-      <publishTime>02/01/2018 13:20:56</publishTime>
+      <publishTime>01/02/2018 13:20:56</publishTime>
     </File>
     <File Include="bin/System.Web.Mvc.dll">
-      <publishTime>02/01/2018 13:16:32</publishTime>
+      <publishTime>01/02/2018 13:16:32</publishTime>
     </File>
     <File Include="bin/System.Web.Optimization.dll">
-      <publishTime>02/11/2014 16:26:04</publishTime>
+      <publishTime>11/02/2014 16:26:04</publishTime>
     </File>
     <File Include="bin/System.Web.Razor.dll">
-      <publishTime>02/01/2018 13:16:56</publishTime>
+      <publishTime>01/02/2018 13:16:56</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Deployment.dll">
-      <publishTime>02/01/2018 13:20:56</publishTime>
+      <publishTime>01/02/2018 13:20:56</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.dll">
-      <publishTime>02/01/2018 13:20:56</publishTime>
+      <publishTime>01/02/2018 13:20:56</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Razor.dll">
-      <publishTime>02/01/2018 13:20:56</publishTime>
+      <publishTime>01/02/2018 13:20:56</publishTime>
     </File>
     <File Include="bin/System.Xml.ReaderWriter.dll">
       <publishTime>09/09/2019 23:23:32</publishTime>
@@ -6223,7 +6223,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/28/2019 19:22:44</publishTime>
     </File>
     <File Include="Scripts/js.cookie.js">
-      <publishTime>09/02/2019 14:45:45</publishTime>
+      <publishTime>02/09/2019 14:45:45</publishTime>
     </File>
     <File Include="Scripts/modernizr-2.8.3.js">
       <publishTime>08/28/2019 19:22:43</publishTime>
@@ -6232,10 +6232,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/30/2019 20:00:14</publishTime>
     </File>
     <File Include="Views/Dashboard/MainDashboard.cshtml">
-      <publishTime>09/24/2019 01:09:13</publishTime>
+      <publishTime>09/25/2019 10:17:58</publishTime>
     </File>
     <File Include="Views/Introducing/index.cshtml">
-      <publishTime>09/24/2019 11:13:16</publishTime>
+      <publishTime>09/25/2019 10:17:54</publishTime>
     </File>
     <File Include="Views/Login/FormCadastro.cshtml">
       <publishTime>09/09/2019 11:13:56</publishTime>
@@ -6256,7 +6256,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/28/2019 19:22:37</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>09/24/2019 22:38:33</publishTime>
+      <publishTime>09/25/2019 19:23:36</publishTime>
     </File>
   </ItemGroup>
 </Project>
