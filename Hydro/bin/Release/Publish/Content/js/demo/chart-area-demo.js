@@ -48,6 +48,7 @@ function getData() {
                     return s.join(dec);
                 }
                 // Area Chart Example
+                $("#myAreaChart").empty();
                 var ctx = document.getElementById("myAreaChart");
                 var myLineChart = new Chart(ctx, {
                     type: 'line',
