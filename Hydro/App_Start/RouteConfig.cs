@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Routing;
 
@@ -13,6 +14,11 @@ namespace Hydro
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            routes.MapHttpRoute(
+                name: "Consumo",
+                routeTemplate: "api/{Consumo}/{id}",
+                defaults: new { controller = "Consumo", id = RouteParameter.Optional }
+            );
             routes.MapRoute(
                 name: "Dashboard",
                 url: "Dashboard/MainDashboard/{codCliente}",
