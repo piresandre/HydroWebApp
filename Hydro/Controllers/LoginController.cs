@@ -66,7 +66,6 @@ namespace Hydro.Controllers
                 Endereco = cidade + " " + bairro + " " + rua + " " + uf + " " + numero,
                 Id = id,
                 Senha = senha,
-                RG = "",
                 Plano = plano
             };
 

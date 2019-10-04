@@ -49,7 +49,6 @@ namespace HydroDAL
                                     Telefone, 
                                     Endereco,
                                     CPF,
-                                    RG,
                                     Senha 
 	                            )
                             VALUES
@@ -61,12 +60,11 @@ namespace HydroDAL
                                     @Telefone,
                                     @Endereco,
                                     @CPF,
-                                    @RG,
                                     @Senha
 		                            
 	                            )
                                 ";
-                var Cadastrado = connection.QueryFirstOrDefault<bool>(cmd, new { clienteMOD.Nome,clienteMOD.Plano.CodPlano, clienteMOD.Id,clienteMOD.Email, clienteMOD.Telefone, clienteMOD.CPF,clienteMOD.RG, clienteMOD.Endereco, clienteMOD.Senha });
+                var Cadastrado = connection.QueryFirstOrDefault<bool>(cmd, new { clienteMOD.Nome,clienteMOD.Plano.CodPlano, clienteMOD.Id,clienteMOD.Email, clienteMOD.Telefone, clienteMOD.CPF, clienteMOD.Endereco, clienteMOD.Senha });
                 return Cadastrado;
             }
         }
