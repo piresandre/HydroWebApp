@@ -5,19 +5,21 @@ $(function () {
     // Declare a function on the job hub so the server can invoke it
     cus.client.displayCostumer = function () {
         getData();
+        getDataPie();
     };
     // Start the connection
     $.connection.hub.start();
     getData();
+    getDataPie();
 });
 function getData() {
+
     $.ajax({
         url: "/Dashboard/Get",
         type: 'GET',
         datatype: 'json',
         success: function (data) {
             $.each(data.listCus, function (i, model) {
-                console.log(model);
                 model.jan + "," + model.fev + "," + model.mar + "," + model.abr + "," + model.mai + "," + model.jun + "," + model.jul + "," + model.aug + "," + model.sete + "," + model.outu + "," + model.nov + "," + model.dez;
                 // Set new default font family and font color to mimic Bootstrap's default styling
                 Chart.defaults.global.defaultFontFamily = 'Nunito', '-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif';
@@ -48,7 +50,6 @@ function getData() {
                     return s.join(dec);
                 }
                 // Area Chart Example
-                $("#myAreaChart").empty();
                 var ctx = document.getElementById("myAreaChart");
                 var myLineChart = new Chart(ctx, {
                     type: 'line',
@@ -142,6 +143,56 @@ function getData() {
         }
     });
 }
+
+
+function getDataPie() {
+    let codCliente = $("#nomeSpan").data("id");
+    $.ajax({
+        url: "/Dashboard/BuscaQUantidaGastaPorLocal",
+        type: 'GET',
+        datatype: 'json',
+        data: { "codCliente": codCliente  },
+        success: function (data) {
+            console.log(data)
+            // Set new default font family and font color to mimic Bootstrap's default styling
+            Chart.defaults.global.defaultFontFamily = 'Nunito', '-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif';
+            Chart.defaults.global.defaultFontColor = '#858796';
+
+            // Pie Chart Example
+            var ctx = document.getElementById("myPieChart");
+            var myPieChart = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: [data.consumo[0].recipiente.Nome, data.consumo[1].recipiente.Nome, data.consumo[2].recipiente.Nome],
+                    datasets: [{
+                        data: [data.consumo[0].QtdGasta, data.consumo[1].QtdGasta,data.consumo[2].QtdGasta],
+                        backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc'],
+                        hoverBackgroundColor: ['#2e59d9', '#17a673', '#2c9faf'],
+                        hoverBorderColor: "rgba(234, 236, 244, 1)",
+                    }],
+                },
+                options: {
+                    maintainAspectRatio: false,
+                    tooltips: {
+                        backgroundColor: "rgb(255,255,255)",
+                        bodyFontColor: "#858796",
+                        borderColor: '#dddfeb',
+                        borderWidth: 1,
+                        xPadding: 15,
+                        yPadding: 15,
+                        displayColors: false,
+                        caretPadding: 10,
+                    },
+                    legend: {
+                        display: false
+                    },
+                    cutoutPercentage: 80,
+                },
+            });
+        }
+    });
+}
+BuscaQUantidaGastaPorLocal
 
 
 

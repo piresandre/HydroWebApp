@@ -1,6 +1,7 @@
 ﻿using Hydro.Hubs;
 using Hydro.Models;
 using HydroBLL;
+using HydroDAL;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -70,6 +71,12 @@ namespace Hydro.Controllers
 
                 }
             }
+        }
+         
+        public JsonResult BuscaQUantidaGastaPorLocal(int codCliente)
+        {
+            var c = new ConsumoControlDAL().BuscarPorCodCliente<ConsumoAgua>(codCliente);
+            return Json(new { consumo = c }, JsonRequestBehavior.AllowGet);
         }
 
         private void dependency_OnChange(object sender, SqlNotificationEventArgs e)

@@ -11,6 +11,7 @@ namespace Hydro.Models
         [BsonId]
         public Guid Id { get; set; }
         public double QtdGasta { get; set; }
+        public RecipienteModel recipiente{ get; set; }
         public ClienteModel Cliente { get; set; }
     }
 }
