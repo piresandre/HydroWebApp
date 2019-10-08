@@ -19,11 +19,12 @@ namespace Hydro.Controllers
         }
 
 
-        public ConsumoAgua Post(int codCliente, double qtdGasta)
+        public ConsumoAgua Post(int codCliente, double qtdGasta, int idRecipiente)
         {
             ConsumoAgua c = new ConsumoAgua
             {
                 QtdGasta = qtdGasta,
+                recipiente = new RecipienteModel(new RecipientesBLL().BuscarRecipiente(idRecipiente)),
                 Cliente = new ClienteModel(new DashboardBLL().BuscarUsuarioDashBoard(codCliente)),
             };
             new ConsumoControlDAL().insertRecord(c);
