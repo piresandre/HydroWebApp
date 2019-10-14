@@ -5801,11 +5801,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HydroTechnology\\Hydro\\HydroBLL\\HydroBLL.csproj",
+      "projectUniqueName": "D:\\HydroWebApp\\HydroBLL\\HydroBLL.csproj",
       "projectName": "HydroBLL",
-      "projectPath": "D:\\HydroTechnology\\Hydro\\HydroBLL\\HydroBLL.csproj",
+      "projectPath": "D:\\HydroWebApp\\HydroBLL\\HydroBLL.csproj",
       "packagesPath": "C:\\Users\\AndreSantis\\.nuget\\packages\\",
-      "outputPath": "D:\\HydroTechnology\\Hydro\\HydroBLL\\obj\\",
+      "outputPath": "D:\\HydroWebApp\\HydroBLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -5826,11 +5826,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\HydroTechnology\\Hydro\\HydroDAL\\HydroDAL.csproj": {
-              "projectPath": "D:\\HydroTechnology\\Hydro\\HydroDAL\\HydroDAL.csproj"
+            "D:\\HydroWebApp\\HydroDAL\\HydroDAL.csproj": {
+              "projectPath": "D:\\HydroWebApp\\HydroDAL\\HydroDAL.csproj"
             },
-            "D:\\HydroTechnology\\Hydro\\HydroMOD\\HydroMOD.csproj": {
-              "projectPath": "D:\\HydroTechnology\\Hydro\\HydroMOD\\HydroMOD.csproj"
+            "D:\\HydroWebApp\\HydroMOD\\HydroMOD.csproj": {
+              "projectPath": "D:\\HydroWebApp\\HydroMOD\\HydroMOD.csproj"
             }
           }
         }

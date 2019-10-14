@@ -5778,11 +5778,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HydroTechnology\\Hydro\\HydroDAL\\HydroDAL.csproj",
+      "projectUniqueName": "D:\\HydroWebApp\\HydroDAL\\HydroDAL.csproj",
       "projectName": "HydroDAL",
-      "projectPath": "D:\\HydroTechnology\\Hydro\\HydroDAL\\HydroDAL.csproj",
+      "projectPath": "D:\\HydroWebApp\\HydroDAL\\HydroDAL.csproj",
       "packagesPath": "C:\\Users\\AndreSantis\\.nuget\\packages\\",
-      "outputPath": "D:\\HydroTechnology\\Hydro\\HydroDAL\\obj\\",
+      "outputPath": "D:\\HydroWebApp\\HydroDAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -5803,8 +5803,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\HydroTechnology\\Hydro\\HydroMOD\\HydroMOD.csproj": {
-              "projectPath": "D:\\HydroTechnology\\Hydro\\HydroMOD\\HydroMOD.csproj"
+            "D:\\HydroWebApp\\HydroMOD\\HydroMOD.csproj": {
+              "projectPath": "D:\\HydroWebApp\\HydroMOD\\HydroMOD.csproj"
             }
           }
         }

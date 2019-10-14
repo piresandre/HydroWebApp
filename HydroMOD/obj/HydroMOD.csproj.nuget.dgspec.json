@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HydroTechnology\\Hydro\\HydroMOD\\HydroMOD.csproj": {}
+    "D:\\HydroWebApp\\HydroMOD\\HydroMOD.csproj": {}
   },
   "projects": {
-    "D:\\HydroTechnology\\Hydro\\HydroMOD\\HydroMOD.csproj": {
+    "D:\\HydroWebApp\\HydroMOD\\HydroMOD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HydroTechnology\\Hydro\\HydroMOD\\HydroMOD.csproj",
+        "projectUniqueName": "D:\\HydroWebApp\\HydroMOD\\HydroMOD.csproj",
         "projectName": "HydroMOD",
-        "projectPath": "D:\\HydroTechnology\\Hydro\\HydroMOD\\HydroMOD.csproj",
+        "projectPath": "D:\\HydroWebApp\\HydroMOD\\HydroMOD.csproj",
         "packagesPath": "C:\\Users\\AndreSantis\\.nuget\\packages\\",
-        "outputPath": "D:\\HydroTechnology\\Hydro\\HydroMOD\\obj\\",
+        "outputPath": "D:\\HydroWebApp\\HydroMOD\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

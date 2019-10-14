@@ -56,7 +56,7 @@ function getData() {
                     data: {
                         labels: ["Jan", "Feb", "Mar", "Abr", "Mai", "Jun", "Jul", "Aug", "Set", "Out", "Nov", "Dec"],
                         datasets: [{
-                            label: "Earnings",
+                            label: "Valor",
                             lineTension: 0.3,
                             backgroundColor: "rgba(78, 115, 223, 0.05)",
                             borderColor: "rgba(78, 115, 223, 1)",
@@ -153,7 +153,6 @@ function getDataPie() {
         datatype: 'json',
         data: { "codCliente": codCliente  },
         success: function (data) {
-            console.log(data)
             // Set new default font family and font color to mimic Bootstrap's default styling
             Chart.defaults.global.defaultFontFamily = 'Nunito', '-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif';
             Chart.defaults.global.defaultFontColor = '#858796';
